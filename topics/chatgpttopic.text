@@ -1,0 +1,464 @@
+# GENERATIVE AI ROADMAP (BEGINNER TO ADVANCED)
+
+# PHASE 1 — PROGRAMMING FOUNDATION
+
+## 1. Python Basics
+
+* Variables
+* Data Types
+* Operators
+* Conditions
+* Loops
+* Functions
+* OOPs
+* Exception Handling
+* File Handling
+* Modules & Packages
+* Decorators
+* Iterators & Generators
+* Async Programming
+
+## 2. Important Python Libraries
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Requests
+
+---
+
+# PHASE 2 — BACKEND DEVELOPMENT
+
+## 3. APIs
+
+* REST API
+* CRUD Operations
+* JSON
+* Status Codes
+* API Testing
+
+## 4. FastAPI
+
+* Routing
+* Request & Response
+* Pydantic
+* Dependency Injection
+* Middleware
+* JWT Authentication
+* File Upload
+* Exception Handling
+
+## 5. Databases
+
+### SQL
+
+* PostgreSQL
+* MySQL
+
+### NoSQL
+
+* MongoDB
+
+## 6. ORM
+
+* SQLAlchemy
+
+---
+
+# PHASE 3 — AI & MACHINE LEARNING BASICS                           here
+
+## 7. Artificial Intelligence Basics
+
+* What is AI
+* Types of AI
+* Narrow AI
+* General AI
+
+## 8. Machine Learning Basics
+
+* Supervised Learning
+* Unsupervised Learning
+* Reinforcement Learning
+* Features & Labels
+* Model Training
+* Testing
+* Overfitting
+* Underfitting
+
+## 9. ML Algorithms
+
+* Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forest
+* KNN
+* SVM
+
+## 10. Scikit-Learn
+
+* Model Building
+* Training
+* Prediction
+* Evaluation
+
+---
+
+# PHASE 4 — DEEP LEARNING
+
+## 11. Neural Networks
+
+* Neurons
+* Layers
+* Activation Functions
+* Forward Propagation
+* Backpropagation
+
+## 12. Deep Learning Concepts
+
+* Epoch
+* Batch Size
+* Gradient Descent
+* Loss Function
+* Optimizers
+
+## 13. Frameworks
+
+* TensorFlow
+* PyTorch
+* Keras
+
+---
+
+# PHASE 5 — NLP (NATURAL LANGUAGE PROCESSING)
+
+## 14. NLP Basics
+
+* Text Cleaning
+* Tokenization
+* Stop Words
+* Stemming
+* Lemmatization
+
+## 15. NLP Techniques
+
+* Bag of Words
+* TF-IDF
+* Word Embeddings
+
+## 16. NLP Libraries
+
+* NLTK
+* spaCy
+
+---
+
+# PHASE 6 — GENERATIVE AI CORE
+
+## 17. Generative AI Basics
+
+* What is GenAI
+* How GenAI Works
+* Applications of GenAI
+* Advantages & Limitations
+
+## 18. LLM Fundamentals
+
+* What is LLM
+* Tokens
+* Context Window
+* Attention Mechanism
+* Transformer Architecture
+
+## 19. Transformer Architecture
+
+* Encoder
+* Decoder
+* Self Attention
+* Multi-Head Attention
+
+## 20. Popular LLMs
+
+* GPT
+* Claude
+* Gemini
+* Llama
+* Mistral
+
+---
+
+# PHASE 7 — PROMPT ENGINEERING
+
+## 21. Prompt Engineering
+
+* Zero-Shot Prompting
+* Few-Shot Prompting
+* Chain of Thought Prompting
+* Role Prompting
+* Structured Prompting
+
+## 22. Prompt Optimization
+
+* System Prompts
+* Temperature
+* Token Control
+
+---
+
+# PHASE 8 — OPENAI & LLM APIs
+
+## 23. API Integration
+
+* OpenAI API
+* Claude API
+* Gemini API
+
+## 24. API Concepts
+
+* API Keys
+* Chat Completion
+* Streaming Responses
+* Function Calling
+
+## 25. Build Mini Projects
+
+* AI Chatbot
+* AI Q&A System
+* AI Email Generator
+
+---
+
+# PHASE 9 — EMBEDDINGS & VECTOR DATABASES
+
+## 26. Embeddings
+
+* Text to Vector Conversion
+* Semantic Search
+* Similarity Search
+
+## 27. Similarity Algorithms
+
+* Cosine Similarity
+* Euclidean Distance
+
+## 28. Vector Databases
+
+* Pinecone
+* ChromaDB
+* Weaviate
+* FAISS
+
+---
+
+# PHASE 10 — RAG (RETRIEVAL AUGMENTED GENERATION)
+
+## 29. RAG Basics
+
+* Document Retrieval
+* Embedding Search
+* Chunking
+* Context Injection
+
+## 30. RAG Flow
+
+User → Embedding → Vector DB → Retrieved Data → LLM → Response
+
+## 31. RAG Projects
+
+* PDF Chatbot
+* Document Assistant
+* Company Knowledge Bot
+
+---
+
+# PHASE 11 — LANGCHAIN & LLM FRAMEWORKS
+
+## 32. LangChain
+
+* Chains
+* Prompt Templates
+* Memory
+* Tools
+* Agents
+
+## 33. LlamaIndex
+
+* Data Connectors
+* Retrieval Pipelines
+
+---
+
+# PHASE 12 — AI AGENTS
+
+## 34. AI Agents
+
+* Agent Architecture
+* Tool Calling
+* Planning
+* Memory
+* Multi-Agent Systems
+
+## 35. Agent Frameworks
+
+* LangGraph
+* CrewAI
+* AutoGen
+
+## 36. Agent Projects
+
+* AI Research Agent
+* AI Coding Agent
+* AI Task Automation
+
+---
+
+# PHASE 13 — MULTIMODAL AI
+
+## 37. Image AI
+
+* Image Generation
+* OCR
+* Image Captioning
+
+## 38. Audio AI
+
+* Speech to Text
+* Text to Speech
+
+## 39. Video AI
+
+* Video Generation
+* Video Understanding
+
+## 40. Popular Models
+
+* DALL·E
+* Whisper
+* Stable Diffusion
+
+---
+
+# PHASE 14 — DEPLOYMENT & PRODUCTION
+
+## 41. Docker
+
+* Containers
+* Dockerfile
+* Docker Compose
+
+## 42. Cloud Platforms
+
+* AWS
+* Azure
+* Google Cloud
+
+## 43. Deployment
+
+* Render
+* Railway
+* Hugging Face Spaces
+* Vercel
+
+## 44. CI/CD
+
+* GitHub Actions
+
+---
+
+# PHASE 15 — ADVANCED GENERATIVE AI
+
+## 45. Fine-Tuning
+
+* Full Fine-Tuning
+* LoRA
+* QLoRA
+
+## 46. Model Optimization
+
+* Quantization
+* Distillation
+
+## 47. Advanced Concepts
+
+* RLHF
+* MoE (Mixture of Experts)
+* Prompt Tuning
+
+---
+
+# PHASE 16 — SYSTEM DESIGN FOR GENAI
+
+## 48. Scalable AI Systems
+
+* Load Balancing
+* Caching
+* Queue Systems
+
+## 49. AI Security
+
+* Prompt Injection
+* Data Privacy
+* Hallucination Control
+
+---
+
+# PHASE 17 — PROJECTS
+
+## Beginner Projects
+
+* AI Chatbot
+* AI Text Generator
+* AI Translator
+
+## Intermediate Projects
+
+* Resume Analyzer
+* PDF Chatbot
+* AI Notes Generator
+
+## Advanced Projects
+
+* Multi-Agent AI System
+* AI Coding Assistant
+* Enterprise RAG System
+
+---
+
+# PHASE 18 — INTERVIEW PREPARATION
+
+## Important Interview Topics
+
+* AI vs ML vs DL vs GenAI
+* What is LLM
+* What is Transformer
+* What is Token
+* What is Embedding
+* What is RAG
+* What is Vector Database
+* What is Fine-Tuning
+* What is Hallucination
+* Difference Between AI Agent & Chatbot
+
+---
+
+# PHASE 19 — GITHUB & PORTFOLIO
+
+## Build Portfolio
+
+* Upload Projects to GitHub
+* Write README Files
+* Deploy Applications
+* Create LinkedIn Posts
+
+---
+
+# FINAL GOAL
+
+## Roles You Can Target
+
+* GenAI Engineer
+* AI Backend Developer
+* LLM Engineer
+* AI Application Developer
+* Prompt Engineer
+* AI Automation Engineer

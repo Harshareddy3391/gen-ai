@@ -1,0 +1,84 @@
+Generative AI Basics
+AI vs ML vs Deep Learning vs GenAI
+Large Language Models (LLMs)
+How LLMs Work
+Transformer Architecture Basics
+Tokens & Tokenization
+Context Window
+Parameters in LLMs
+Temperature
+Top_p
+Max Tokens
+Hallucinations
+Prompt Engineering
+Zero-shot Prompting
+Few-shot Prompting
+Chain of Thought Prompting
+Role Prompting
+Structured Prompting
+Prompt Templates
+System Prompts
+Embeddings
+Vector Embeddings
+Semantic Search
+Similarity Search
+Cosine Similarity
+Chunking
+Metadata
+Vector Databases
+Retrieval-Augmented Generation (RAG)
+RAG Architecture
+Retriever
+Context Injection
+Knowledge Grounding
+Fine-tuning vs RAG
+Document Loaders
+Text Splitters
+Re-ranking
+Hybrid Search
+LangChain Basics
+Chains
+PromptTemplate
+Output Parsers
+Memory in AI Apps
+AI Agents
+Tools in Agents
+Function Calling
+Structured Outputs
+Multi-agent Systems
+AI Workflows
+Open-source LLMs
+Closed-source LLMs
+Model Comparison
+Hallucination Reduction Techniques
+Guardrails in AI
+AI Safety Basics
+Context Engineering
+Token Optimization
+Latency Optimization
+Streaming Responses
+Conversational AI
+Chat History Management
+PDF Question Answering
+AI Chatbot Concepts
+Resume Analyzer Concepts
+AI Summarization
+Text Generation
+Semantic Matching
+Evaluation Metrics for LLMs
+Prompt Optimization
+LLM Observability Basics
+AI Application Architecture
+MCP (Model Context Protocol) Basics
+Fine-tuning Basics
+LoRA Basics
+Quantization Basics
+Knowledge Bases in AI
+Multi-modal AI Basics
+Speech-to-Text Basics
+Text-to-Speech Basics
+Image Generation Basics
+AI Deployment Basics
+API-based AI Integration
+Rate Limits & Token Costs
+Responsible AI Concepts
