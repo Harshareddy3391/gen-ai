@@ -1,4 +1,4 @@
-from sklearn.linear_model import LinearRegression
+"""from sklearn.linear_model import LinearRegression
 import numpy as np
 
 
@@ -16,3 +16,7 @@ c=model.predict([[8]])
 print(c)
 print(a)
 print(b)
+"""
+
+
+#mulcd 
