@@ -1,7 +1,16 @@
-from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-load_dotenv()
-llm=ChatOpenAI()
-res=llm.invoke("what is python")
-#print(res)
-print(res.usage_metadata)
+from langchain_core.prompts import PromptTemplate
+
+
+prompt_data=PromptTemplate(
+    template="Explain {topic}",
+    input_variables=["topic"]
+
+)
+
+res=prompt_data.batch([
+    {"topic":"python"}, 
+    {"topic":"java"}
+])
+
+print(prompt_data)
+print(res)
