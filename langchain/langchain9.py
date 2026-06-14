@@ -1,17 +1,14 @@
-from langchain_core.runnables import RunnableLambda
-
-step2 = RunnableLambda(
-    lambda x: x * 2
-)
-step1 = RunnableLambda(
-    lambda x: x + 10
-)
-
+from langchain_core.runnables import RunnableAssign,RunnableParallel,RunnableLambda
+#from langchain_core.runnables import  Runnableassign,RunnableLambda
  
 
-chain = step2 | step1
 
-result = chain.invoke(5)
+val=RunnableAssign(
+    RunnableParallel(
+        city=RunnableLambda(lambda c: "bangalore")
+    )
+)
 
-#print(step1)
-print(result)
+data=val.invoke({"name":"hari"})
+
+print(data)
