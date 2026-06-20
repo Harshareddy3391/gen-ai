@@ -1,4 +1,5 @@
-from dotenv import load_dotenv
+#dummy storeage
+"""from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage,AIMessage
 load_dotenv()
@@ -21,4 +22,32 @@ responce2=llm.invoke(
     msg_history+[HumanMessage(content="what is my name?")]
 )
 
-print(responce2.content)
+print(responce2.content)"""
+
+#chat message history
+"""
+from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from langchain_community.chat_message_histories import ChatMessageHistory
+import warnings
+warnings.filterwarnings("ignore")
+
+
+load_dotenv()
+
+model=ChatOpenAI()
+
+chat_history=ChatMessageHistory()
+
+
+#user message
+chat_history.add_user_message("hii i am harsha")
+#responce
+responce=model.invoke(chat_history.messages)
+print(responce.content)
+
+chat_history.add_ai_message(responce.content)
+
+#qustion 
+chat_history.add_user_message("what is my name") 
+print(i.content for i in chat_history.messages)"""
