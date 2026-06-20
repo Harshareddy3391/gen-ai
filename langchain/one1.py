@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_core.chat_history import InMemoryChatMessageHistory
 
+history = InMemoryChatMessageHistory()
 
-llm_client=ChatOpenAI(meodel="gpt-4.1-mini")
-res=llm_client.invoke("tel me about youtube")
-llm_client
+history.add_user_message("Hi")
+history.add_ai_message("Hello")
+
+print(history.messages)

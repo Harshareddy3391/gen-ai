@@ -51,3 +51,40 @@ chat_history.add_ai_message(responce.content)
 #qustion 
 chat_history.add_user_message("what is my name") 
 print(i.content for i in chat_history.messages)"""
+
+
+"""
+#RunnableWithMessageHistory
+from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from langchain_core.chat_history import InMemoryChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
+
+load_dotenv()
+model=ChatOpenAI()
+
+store={}
+def get_session_history(session_id):
+    if session_id not in store:
+        store[session_id]=InMemoryChatMessageHistory()
+    return store[session_id]
+    
+chain=RunnableWithMessageHistory(
+    model,get_session_history
+)
+
+user_data=input("write something:")
+#first message
+responce1=chain.invoke(
+    user_data,
+    config={"configurable":{"session_id":"user1"}}
+)
+
+print("AI :",responce1.content)
+
+
+responce2=chain.invoke(
+    "my name",
+    config={"configurable":{"session_id":"user1"}}
+)
+print(responce2.content)"""
