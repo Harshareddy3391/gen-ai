@@ -88,3 +88,39 @@ responce2=chain.invoke(
     config={"configurable":{"session_id":"user1"}}
 )
 print(responce2.content)"""
+
+
+
+
+from dotenv import load_dotenv
+from langchain_core.chat_history import InMemoryChatMessageHistory
+from langchain_openai import ChatOpenAI
+from langchain_core.runnables.history import RunnableWithMessageHistory
+
+load_dotenv()
+model=ChatOpenAI()
+store={}
+def get_message_data(session_id):
+    if session_id not in store:
+        store[session_id]=InMemoryChatMessageHistory()
+    return store[session_id]
+
+chat_history=RunnableWithMessageHistory(
+    model,get_message_data
+)
+
+
+user_quary=input("write something: ")
+
+res1=chat_history.invoke(
+    user_quary,
+    config={"configurable":{"session_id":"user1"}}
+)
+
+print(res1.content)
+
+res2=chat_history.invoke(
+    "what is my name",config={"configurable":{"session_id":"user1"}}
+    )
+
+print(res2.content)
