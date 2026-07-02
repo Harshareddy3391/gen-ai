@@ -120,7 +120,7 @@ res1=chat_history.invoke(
 print(res1.content)
 
 res2=chat_history.invoke(
-    "what is my name",config={"configurable":{"session_id":"user1"}}
+    "what is my name",config={"configurable":{"session_id":"user2"}}
     )
 
 print(res2.content)
